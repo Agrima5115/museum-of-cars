@@ -1,0 +1,80 @@
+html {
+    scroll-behavior: smooth;
+    transition: scroll-behavior 0.5s ease-in-out;
+  }
+
+body {
+    background: black;
+    font-family: "Nunito", sans-serif;
+}
+
+.blurb h2 {
+   color: #ffd700; /* Gold color */
+   font-weight: 100;
+   font-size: 2.5rem;
+}
+
+.blurb p {
+    color: gray;
+    font-weight: 120;
+    font-size: 1.1rem;
+    line-height: 2;
+}
+
+.blurb p a
+{
+    color:#FFD700;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #FFD700; /* Gold color */
+}
+
+#mainNavbar .navbar-brand {
+    color: #FFD700; /* Gold color */
+    font-size: 1.5rem;
+}
+
+#headingGroup span {
+    color: #FFD700; /* Gold color */
+}
+
+#headingGroup h1 {
+    font-style: cursive;
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+.navbar.scrolled {
+    background: #FFD700;
+    transition: background 500ms;
+}
+
+.social
+{
+    color:rgb(90, 90, 90);
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+}
